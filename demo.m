@@ -2,6 +2,8 @@
 % The rawdepth is obtained by a depth estimation method based on light field cameras.
 
 % more info: Vincent Qin (https://github.com/Vincentqyw) 
-depth       =imread('rawdepth.png');
-color_image =imread('color_image.png');
-[out,mask]=imageBokeh(color_image,rawdepth);
+addpath(genpath(pwd));
+
+depth       =imread('img/rawdepth.png');
+color_image =imread('img/color_image.png');
+[out,mask]=imageBokeh(color_image,depth);
