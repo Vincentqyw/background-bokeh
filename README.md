@@ -1,7 +1,7 @@
 
 This repo is used to blur the background of an image using its depth map. The input is an color image and its corresponding depth map. I choose to use some intermediate variables of light field processing to perform background bokeh.
 **Color image** is the central view of a light field (shot by ILLUM). The **raw depth** is obtained by a depth estimation method based on light field cameras.
-**NOTE**: This script is originally written by [ShreyasSkandan](https://github.com/ShreyasSkandan/stereo-background-blur) and then REVISED by **[Vincent Qin](https://github.com/Vincentqyw)**. Make sure your matlab version >=**R2014b**.
+**NOTE**: This script is originally written by [ShreyasSkandan](https://github.com/ShreyasSkandan/stereo-background-blur) and then REVISED by **[Vincent Qin](https://github.com/Vincentqyw)**. Make sure your matlab version >=**R2017a**.
 
 
 ## How to use?
